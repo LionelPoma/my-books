@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  /* AWS Api Gateway url */
+  apiUrl: ' https://uvq6ifqmz8.execute-api.eu-west-3.amazonaws.com/dev'
 };
 
 /*
